@@ -2,4 +2,4 @@
 Project to help with remembering and refining code patterns
 
 ## Promises
-[Processing Sub Arrays](../promises/subarray.js)
+[Processing Sub Arrays](../blob/master/promises/subarray.js)
