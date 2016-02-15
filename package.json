@@ -1,0 +1,15 @@
+{
+  "name": "patterns",
+  "version": "1.0.0",
+  "description": "Project to help with remembering and refining code patterns",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eric Erickson",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.3.1",
+    "lodash": "^4.3.0"
+  }
+}
