@@ -1,0 +1,17 @@
+version: '2'
+services:
+  website:
+    build: ./website
+    ports:
+     - "3000:3000"
+    depends_on:
+     - redis
+     - rethinkdb
+  redis:
+    image: redis
+  rethinkdb:
+    image: rethinkdb
+    ports:
+      - "8080:8080"
+      - "28015"
+      - "29015"
